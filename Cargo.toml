@@ -13,8 +13,8 @@ thiserror = "1.0.30"
 
 
 [target.'cfg(not(any(target_os = "windows", target_os = "macos")))'.dependencies]
-gtk = "0.15.3"
-glib = "0.15.5"
+gtk = "0.17.0"
+glib = "0.17.5"
 
 [target.'cfg(target_os = "windows")'.dependencies]
 winapi = { version = "0.3.9", features = ["winuser"] }
